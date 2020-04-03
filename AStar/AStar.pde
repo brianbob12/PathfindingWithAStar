@@ -105,6 +105,9 @@ void keyPressed(){
   }
   else if(key=='s'){
     show=!show;
+    if(!show){
+      startPathfinding();
+    }
   }
 }
 
